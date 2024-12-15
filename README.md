@@ -1,0 +1,1 @@
+This repository demonstrates a common issue in CSS: unexpected behavior due to specificity conflicts. The `bug.css` file shows the conflicting styles, while `bugSolution.css` provides a solution using more specific selectors or the `!important` flag (used sparingly).  Understanding CSS specificity is crucial for effective styling.
