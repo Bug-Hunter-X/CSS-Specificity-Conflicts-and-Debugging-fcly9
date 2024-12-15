@@ -1,0 +1,1 @@
+The CSS specificity rules can lead to unexpected results.  For example, if you have an inline style that conflicts with a style in an internal style sheet, the inline style will win due to higher specificity, even if you intend the internal style sheet to override it.  This can be difficult to debug because the conflict might not be obvious from looking at the stylesheet.
