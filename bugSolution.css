@@ -1,0 +1,9 @@
+To solve this, you can make your intended styles more specific by adding more selectors, or use the `!important` flag (though use it sparingly and be aware of potential negative consequences).  Here's an example of making your selectors more specific:
+
+/* bug.css */
+.my-element { color: blue; }
+#my-element { color: red; }
+
+/* bugSolution.css */
+#my-element { color: red; }
+.my-element#my-element {color: red !important;} 
